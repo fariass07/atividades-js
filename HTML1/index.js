@@ -1,7 +1,14 @@
-console.log("Digite um numero")
+const form = document.querySelector("form")
+const divTabuada = document.querySelector(".tabuada")
 
-
-for (let i = 0; i <= 10; i++)
+form.addEventListener("submit", (e) =>
 {
-    console.log(num * i)
-}
+    divTabuada.innerHTML = "";
+    const inputValue = document.querySelector("input").value;
+    e.preventDefault();
+
+    for(let i = 1; i <= 10; i++)
+    {
+        divTabuada.innerHTML += `<p>${inputValue} x ${i} = ${inputValue * i}</p>`
+    }
+})

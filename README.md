@@ -1,1 +1,9 @@
 # atividades-js
+
+HTML 1: OK
+HTML 2: OK
+HTML 3: OK
+JS1: OK
+JS2: OK
+JS3: OK
+JS4: OK

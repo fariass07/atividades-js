@@ -14,13 +14,9 @@ function PegarCavalos()
 
 function VerificarIdade(idade, cavalos) 
 {
-    if (idade >= 18 && cavalos < 70) 
+    if (idade >= 18 || cavalos < 70) 
     {
-        Boolean = true;
-        if (Boolean === true)
-        {
-            alert("Pode dirigir.")
-        }
+        alert("Pode dirigir.")
     }
     else
     {
